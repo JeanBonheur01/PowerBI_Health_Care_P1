@@ -22,11 +22,7 @@ View Required: A summary page presenting the above requirements and a detailed p
        Data Type, volume/frequency & Data Quality). 
     4. Define Scope (KPIs, timelines, Expectations, etc.)
 
-- Step2: Data Collection
-        Load data into Power BI, the inpatient´s and outpatients´s data are
-        stored as xlsx files representing each year in respectives folders.
-        The speciality group dataset is stored as CSV file. The first two large              datasets have been uploaded as Folders in Power BI while the last one has            been uploaded as a CSV file.
-
+- Step2: Data Collection    
 - Step3: Transformation & Modeling
 - Step4: Data Visualisation Blueprint 
 - Step5: Dashboard Layout & Design 
@@ -34,3 +30,10 @@ View Required: A summary page presenting the above requirements and a detailed p
 - Step7: Testing 
 - Step8: Sharing
 - Step9: Maintenance & Refresh
+
+### Step2: Data Collection
+
+Load data into Power BI, the inpatient´s and outpatients´s data are stored as xlsx files representing each year in respectives folders. The speciality group dataset is stored as CSV file. The first two large datasets have been uploaded as Folders in Power BI while the last one has been uploaded as a CSV file.
+Since there are multiple files, before loading data, I checked some critical quality factors such as column count and headers to ensure that the data matches. Then, I combined and loaded the files into Power BI for the respective Inpatient and outpatient folders. 
+
+### Step3: Transformation & Modeling
