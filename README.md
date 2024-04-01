@@ -58,9 +58,19 @@ NB! Since the tranformation & modeling phase is iterative, this step has been do
 #### 1. Summary Page 
 
 - Total waitlist of the current month
+
+We use the DAX option (Data Analysis Expression) by creating a new measure and entering the name and the formula of that measure.
+
+Formula: Last Month Wait List = CALCULATE(SUM(All_Data[Total]), All_Data[Archive_Date] = Max(All_Data[Archive_Date])) + 0
+
+The new measure has been represented in a card: 
+![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/883ee3aa-267c-41f8-87fb-623845bc38d1)
+
+NB! 0 is added to the formula to avoid a blank value in the visualization. 
+  
+- Total waitlist of the previous year´s same month:
 - Average and median metrics to enable the statistical visualization of the waiting list
 - Different filters to enable the filtration/interaction of the data/table
-- Total waitlist of the previous year´s same month:
   This is important so we can compare it with the current month/situation. 
 - Average/Median of Case_type visualized in donut chart, and showing the procentage of the inpatient, day_case and outpatient waiting lists.
 - A vertical bar chart showing the relationship between the time band and age profile
