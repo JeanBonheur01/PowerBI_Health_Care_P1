@@ -62,9 +62,9 @@ NB! Since the tranformation & modeling phase is iterative, this step has been do
 We use the DAX option (Data Analysis Expression) by creating a new measure and entering the name and the formula of that measure.
 
 Formula: Last Month Wait List = CALCULATE(SUM(All_Data[Total]), All_Data[Archive_Date] = Max(All_Data[Archive_Date])) + 0
+![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/883ee3aa-267c-41f8-87fb-623845bc38d1)
 
 The new measure has been represented in a card: 
-![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/883ee3aa-267c-41f8-87fb-623845bc38d1)
 
 NB! 0 is added to the formula to avoid a blank value in the visualization. 
   
@@ -77,6 +77,11 @@ NB! 0 is added to the formula to avoid a blank value in the visualization.
 - A table showing the top 5 waitlists by speciality
 - Two line charts to visualise the monthly trend Inpatient/Day_case vs. OutPatient
 - Navigation button to the next page (Detailed page)
+  This is the small information button on the image, when putting the mouse on it the following information appears: "click to view detailed page"
+
+Image of the summary page: 
+
+<img width="852" alt="Summary_view" src="https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/0b97fec4-657c-4954-a576-9cfdfc86d0e4">
 
 #### 2. Detailed Page
 
