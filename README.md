@@ -50,4 +50,28 @@ NB! Since the tranformation & modeling phase is iterative, this step has been do
 
 - Once the tranformed data is uploaded, in the modeling view, I ensure that the desired model/relationship created between the data (All_data and Mapping_Specialty) is correct. Finally, tables that will not be used are deleted or hidden from the report view to avoid any confusion.
 
-### Step4: Data Visualisation Blueprint
+### Step4 & 5: Data Visualisation Blueprint & Dashboard Layout/Design
+
+- Firsly, a discussion of the entire visualisation with the team or relevant stakeholders and finalizing a structure.
+- Before starting with the designing process, in the view module, I enable the "Gridlines" and "Snap to grid" functions so the dashboard layout can be done easily and efficiently.
+
+#### 1. Summary Page 
+
+- Total waitlist of the current month
+- Average and median metrics to enable the statistical visualization of the waiting list
+- Different filters to enable the filtration/interaction of the data/table
+- Total waitlist of the previous year´s same month:
+  This is important so we can compare it with the current month/situation. 
+- Average/Median of Case_type visualized in donut chart, and showing the procentage of the inpatient, day_case and outpatient waiting lists.
+- A vertical bar chart showing the relationship between the time band and age profile
+- A table showing the top 5 waitlists by speciality
+- Two line charts to visualise the monthly trend Inpatient/Day_case vs. OutPatient
+- Navigation button to the next page (Detailed page)
+
+#### 2. Detailed Page
+
+- Different filters to enables the filtration/interaction of the data
+- The metrix view that show different forms of detailed data
+- Return button to the summary page
+
+#### 3. Drilldown page
