@@ -24,9 +24,8 @@ View Required: A summary page presenting the above requirements and a detailed p
 
 - Step2: Data Collection
         Load data into Power BI, the inpatient´s and outpatients´s data are
-        stored as xlsx files in respectives folders. The speciality group dataset
-        is stored as CSV file. The first two large datasets have been uploaded as
-        Folders in Power BI while the last one has been uploaded as a CSV file.
+        stored as xlsx files representing each year in respectives folders.
+        The speciality group dataset is stored as CSV file. The first two large              datasets have been uploaded as Folders in Power BI while the last one has            been uploaded as a CSV file.
 
 - Step3: Transformation & Modeling
 - Step4: Data Visualisation Blueprint 
