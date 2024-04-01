@@ -108,14 +108,26 @@ Average/Median of Case_type visualized in donut chart, and showing the procentag
 - Navigation button to the next page (Detailed page)
   This is the small information button on the image, when putting the mouse on it the following information appears: "click to view detailed page"
 
-Image of the summary page: 
+#### Image of the summary page: 
 
 <img width="852" alt="Summary_view" src="https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/0b97fec4-657c-4954-a576-9cfdfc86d0e4">
 
 #### 2. Detailed Page
 
-- Different filters to enables the filtration/interaction of the data
-- The metrix view that show different forms of detailed data
-- Return button to the summary page
+- Different filters to enables the filtration/interaction have been implemented.
+
+Desired filters has been created to interact with the detailed matrix table that displays various informations. 
+
+- The metrix view displays different forms of detailed data.
+
+Case_type is shown in the column function, Sum of total in the Vlue functions, and other relevant values on the rows-side (e.g Archive date).
+
+- Return button: This enables the user to easily navigate back to the main summary page. 
+
+#### Image of the Detailed Page
 
 #### 3. Drilldown page
+
+### Conclusion 
+
+The Dashboard has undergone an aesthetically pleasing process to enhance its beauty and improve the overall user experience. For example avoiding null value data or blank values when filtering. In this project, the visualisation design/format was adopted from an extern plattform "stocked.adobe.com", and colors were extracted in another plattform "color.adobe.com". The extracted colors were then used in the PowerPoint platform to design bakgrounds, which were ultimately implemented in my Power BI dashboard. 
