@@ -37,3 +37,13 @@ Load data into Power BI, the inpatient´s and outpatients´s data are stored as 
 Since there are multiple files, before loading data, I checked some critical quality factors such as column count and headers to ensure that the data matches. Then, I combined and loaded the files into Power BI for the respective Inpatient and outpatient folders. 
 
 ### Step3: Transformation & Modeling
+
+In the transformation view page: 
+- The data type for all columns was checked, and the wrong ones were corrected.
+- The total number of rows for each dataset was checked and compared with the original xlsx or CSV files to ensure that my uploading was done correctly.
+- Since the output dataset did not have a "Case_type" column, a new custom column was created with the value "Output".
+- Before appending the two tables, datasets were checked to ensure that the number of columns were equal and that the column names and positions were consistent throughout.
+- The created table was appended as new, with "Impatient" as the first table and "Outpatient" as the second one. Then the new table was also renamed (e.g All_Data).
+- The new table was closed and applied for the next step (Data visualisation).
+
+NB! Since the tranformation & modeling phase is iterative, this step has been done several times when different changes were needed to correct our data or put it in a format that enables the visualizations goals. 
