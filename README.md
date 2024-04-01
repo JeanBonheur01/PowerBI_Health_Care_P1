@@ -47,3 +47,7 @@ In the transformation view page:
 - The new table was closed and applied for the next step (Data visualisation).
 
 NB! Since the tranformation & modeling phase is iterative, this step has been done several times when different changes were needed to correct our data or put it in a format that enables the visualizations goals. 
+
+- Once the tranformed data is uploaded, in the modeling view, I ensure that the desired model/relationship created between the data (All_data and Mapping_Specialty) is correct. Finally, tables that will not be used are deleted or hidden from the report view to avoid any confusion.
+
+### Step4: Data Visualisation Blueprint
