@@ -126,7 +126,11 @@ Case_type is shown in the column function, Sum of total in the Vlue functions, a
 
 #### Image of the Detailed Page
 
+<img width="837" alt="Detailed_view" src="https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/4abd9b2e-fb33-4c05-99e1-6461d66f8926"> 
+
 #### 3. Drilldown page
+
+#### Image of Drilldown page
 
 ### Conclusion 
 
