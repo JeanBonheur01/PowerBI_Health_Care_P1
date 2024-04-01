@@ -70,10 +70,30 @@ NB! The new measure has been represented on a card at the top left of screen.
 - Total waitlist of the previous year´s same month:
 
 Formula: PY Latest Month Wait List = CALCULATE(SUM(All_Data[Total]), All_Data[Archive_Date]= EDATE(MAX(All_Data[Archive_Date]), -12)) +0
+![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/5b4158db-71a0-4149-88dd-d22f49739dcb)
 
 NB! To move to the previous month, the EDATE function has been used. Since it represents the previous month of the last year, the formula has been substracted by -12 (12 month before the current month). 
 
 - Average and median metrics to enable the statistical visualization of the waiting list
+
+Since the interaction between the Average and Median metrics will be necessary, it is critical to create a "dynamic measure" that will enables this interactions whithin the entire visualization. 
+
+Dynamic measure: - create a new table/rename/enter names of actual measure/Load
+                 - Then, a slicer (filter) has been created with the new dynamic                        measure. 
+                 - The average and median waiting list have been created
+
+Average waiting list formula: Average Wait List = AVERAGE (All_Data[Total])
+![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/7c38fce3-b2d3-4b39-8e27-d4fc371d1346)![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/dd991202-bc4e-4921-9847-d6c0d0a3de51)
+
+Median Waiting List formula: Median Wait List = MEDIAN (All_Data [Total])
+![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/cf095299-7dbd-4c64-98d0-e6bacab5e3b6)![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/37609e71-382a-4de0-ae07-d3a71b65fb39)
+
+Avg/Med Wait List: The "SWITCH" and "VALUES" functions have been used to enable interection with the different buttons or measures (Average vs. Median). 
+Formula: Avg/Med Wait List = SWITCH(VALUES('Calc Method'[Calc Method]), "Average", [Average Wait List], "Median", [Median Wait List])
+![image](https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/af87c7b1-a32e-43d2-a02d-7c8bf786ee54)
+
+
+
 - Different filters to enable the filtration/interaction of the data/table
   This is important so we can compare it with the current month/situation. 
 - Average/Median of Case_type visualized in donut chart, and showing the procentage of the inpatient, day_case and outpatient waiting lists.
