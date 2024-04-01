@@ -134,6 +134,12 @@ Case_type is shown in the column function, Sum of total in the Vlue functions, a
 
 <img width="446" alt="Screenshot 2024-04-01 at 17 27 38" src="https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/679a7fd9-bd6c-4a23-a224-827fd417aca4">
 
+#### Image of interaction between the summary page and drilldown page
+
+<img width="851" alt="Screenshot 2024-04-01 at 17 34 03" src="https://github.com/JeanBonheur01/PowerBI_Health_Care_P1/assets/131664311/992dbcfa-00e9-4f4b-b2e6-30073509e769">
+
+NB! When interacting with the line charts, a pop-up window of the created drilldown appears to show more detailed information about the total wait list and speciality wait list, filtered by time and case type. 
+
 ### Conclusion 
 
 The Dashboard has undergone an aesthetically pleasing process to enhance its beauty and improve the overall user experience. For example avoiding null value data or blank values when filtering. In this project, the visualisation design/format was adopted from an extern plattform "stocked.adobe.com", and colors were extracted in another plattform "color.adobe.com". The extracted colors were then used in the PowerPoint platform to design bakgrounds, which were ultimately implemented in my Power BI dashboard. 
