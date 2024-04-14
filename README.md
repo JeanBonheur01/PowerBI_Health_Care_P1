@@ -11,7 +11,6 @@
 - [Results/Findings](#resultsfindings)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
-- [References](#references)
 
 ### Problem Statement and Overall Objectives
 
@@ -188,9 +187,5 @@ NB! When interacting with the line charts, a pop-up window of the created drilld
 - Data collected from the internet may be biased or skewed, leading to biased results or conclusions.
   
 - Statistical analysis and further investigation are needed to assess and determine wheter the observed differences are meaningful or simply due to random variation.
-
-### References
-
-- YT: Pivotalstats [Find here](https://www.youtube.com/watch?v=G8ikAJele_s&t=2419s)
 
 💻🖱️💻🖱️🤖🖱️🤖
