@@ -40,7 +40,7 @@ The primary data used for this analysis are the inpatient and outpatients data, 
 In the initial data preparation phase, the following taks was performed: 
 
 1. Data Collection/loading and inspection
-Since there are multiple files, before loading data, some critical quality factors were checked such as column count and headers to ensure that the data consistency. Then, the files were combined and loaded into Power BI.
+Since there are multiple files, before loading data, some critical quality factors were checked such as column count and headers to ensure the data consistency. Then, the files were combined and loaded into Power BI.
 
 2. Transformation & Modeling
 - Handling of missing values
